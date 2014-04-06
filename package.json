@@ -1,0 +1,18 @@
+{
+  "name":"redis-script",
+  "version":"0.0.1",
+  "description":"Script Manager for redis.",
+  "main": "./lib/redis-script.js",
+  "scripts": {
+    "test": "tape ./test/*.js"
+  },
+  "author": "lixiaojun <cn.lixiaojun@gmail.com>",
+  "dependencies": {
+    "redis": "*"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "private": true,
+  "license": "Mangrove Technology, Inc"
+}
